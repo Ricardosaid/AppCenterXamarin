@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.AppCenter.Distribute.Android;
 
 namespace AppCenterXamarin.Droid
 {
@@ -19,6 +20,7 @@ namespace AppCenterXamarin.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Distribute.SetEnabledForDebuggableBuild(true);
             LoadApplication(new App());
         }
     }
