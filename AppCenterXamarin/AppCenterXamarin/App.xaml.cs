@@ -25,6 +25,8 @@ namespace AppCenterXamarin
             Analytics.TrackEvent("App started");
             Distribute.DisableAutomaticCheckForUpdate();
             Analytics.TrackEvent("Disabling automatic check for updates");
+            Distribute.CheckForUpdate();
+            Analytics.TrackEvent("Checking for updates");
             Distribute.NoReleaseAvailable = OnNoReleaseAvailable;
             Analytics.TrackEvent("Setting no release available callback");
             Distribute.ReleaseAvailable = OnReleaseAvailable;
