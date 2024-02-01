@@ -39,7 +39,7 @@
         <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     </PropertyGroup>
     <ItemGroup Condition=" '$(Configuration)' != 'GooglePlay' ">
-        <PackageReference Include="Microsoft.AppCenter.Distribute" Version="3.3.0" />
+        <PackageReference Include="Microsoft.AppCenter.Distribute" Version="5.0.3" />
     </ItemGroup>
     <ItemGroup Condition=" '$(Configuration)' == 'GooglePlay' ">
         <PackageReference Include="Microsoft.AppCenter.DistributePlay" Version="3.3.0" />
