@@ -22,7 +22,7 @@
                         <Label Grid.Column="1" Text="{Binding Title}"
                                FontAttributes="Bold"></Label>
                         <Label Grid.Column="1" Grid.Row="1" Text="{Binding Notes}"></Label>
-                        <Label Grid.Column="1" Grid.Row="2" Text="{Binding Rating}"></Label>
+                        <Label Grid.Column="1" Grid.Row="2" Text="{Binding Date}"></Label>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
