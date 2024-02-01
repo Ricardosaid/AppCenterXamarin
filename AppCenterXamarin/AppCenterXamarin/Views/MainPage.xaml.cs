@@ -43,6 +43,15 @@ namespace AppCenterXamarin.Views
                     Date = new DateTime(2023, 12, 19),
                     Latitude = 38.8977,
                     Longitude = -77.0365
+                },
+                new TripLogEntry
+                {
+                    Title = "Liechtenstein",
+                    Notes = "Castillo de Gutenberg",
+                    Rating = 2,
+                    Date = new DateTime(2023, 12, 19),
+                    Latitude = 38.8977,
+                    Longitude = -77.0365
                 }
             };
             trips.ItemsSource = items;
