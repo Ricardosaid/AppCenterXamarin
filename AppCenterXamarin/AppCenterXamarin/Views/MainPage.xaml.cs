@@ -19,8 +19,8 @@ namespace AppCenterXamarin.Views
             {
                 new TripLogEntry
                 {
-                    Title = "CDMX",
-                    Notes = "Mexico",
+                    Title = "Mexico",
+                    Notes = "Castillo de Chapultepec, Mexico City",
                     Rating = 3,
                     Date = new DateTime(2023, 12, 19),
                     Latitude = 38.8977,
@@ -28,8 +28,8 @@ namespace AppCenterXamarin.Views
                 },
                 new TripLogEntry
                 {
-                    Title = "LOS CABOS",
-                    Notes = "Mexico",
+                    Title = "Poland",
+                    Notes = "Cracovia",
                     Rating = 4,
                     Date = new DateTime(2023, 12, 19),
                     Latitude = 38.8977,
@@ -37,8 +37,8 @@ namespace AppCenterXamarin.Views
                 },
                 new TripLogEntry
                 {
-                    Title = "Munich",
-                    Notes = "Alemania",
+                    Title = "Germany",
+                    Notes = "Berlin",
                     Rating = 2,
                     Date = new DateTime(2023, 12, 19),
                     Latitude = 38.8977,

@@ -25,6 +25,7 @@
                         <Label Grid.Column="1" Grid.Row="2" Text="{Binding Date}"></Label>
                         <Label Grid.Column="1" Grid.Row="3" Text="{Binding Latitude}"></Label>
                         <Label Grid.Column="1" Grid.Row="4" Text="{Binding Longitude}"></Label>
+                        <Label Grid.Column="1" Grid.Row="5" Text="{Binding Rating}"></Label>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
